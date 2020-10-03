@@ -1,0 +1,1104 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ioud_email_alerts
+# 	* ioud_stock_order
+# 	* ioud_sale_order
+# 	* ioud_qr_barcode_scanner
+# 	* ioud_purchase_order
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-24 02:51+0000\n"
+"PO-Revision-Date: 2018-11-24 08:51+0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Language: ar\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: ioud_sale_order
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_form
+msgid "Address"
+msgstr "العنوان"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_price_per_product_amount
+msgid "Amount"
+msgstr "المبلغ"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_cgrn_req__app_view_form
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req__app_view_form
+msgid "Approve"
+msgstr "موافقه"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: selection:ioud_cgrn_approval_model.ioud_cgrn_approval_model,state:0
+#: selection:ioud_cgrn_req_data.ioud_cgrn_req_data,state:0
+#: selection:ioud_stock_approval_model.ioud_stock_approval_model,state:0
+#: selection:ioud_stock_req_data.ioud_stock_req_data,state:0
+msgid "Approved"
+msgstr "تمت الموافقة"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_arabic_name
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_arabic_name
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_arabic_name
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_tree
+msgid "Arabic Name"
+msgstr "Arabic اسم"
+
+#. module: ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_stock_order.field_stock_warehouse_user_ids
+msgid "Assosiated Users"
+msgstr "Assosiated Users"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_bank
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_bank
+msgid "Bank"
+msgstr "المصرف"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model,name:ioud_qr_barcode_scanner.model_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner
+msgid "Barcode QR Scanner"
+msgstr "Barcode QR Scanner"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_cgrn_req__app_view_form
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req__app_view_form
+msgid "Bill Reference"
+msgstr "Bill Reference"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_account_invoice_branch_id
+#: model:ir.model.fields,field_description:ioud_sale_order.field_sale_order_branch_id
+msgid "Branch"
+msgstr "فرع"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_branch_id
+msgid "Branch Name"
+msgstr "فرع اسم"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_branch_no
+msgid "Branch No"
+msgstr "فرع No"
+
+#. module: ioud_sale_order
+#: model:ir.actions.act_window,name:ioud_sale_order.action_window_ioud_branches
+#: model:ir.ui.menu,name:ioud_sale_order.ioud_branches_menu_1
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_form
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_tree
+msgid "Branches"
+msgstr "الفروع"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model,name:ioud_qr_barcode_scanner.model_ioud_cgrn_approval_model_ioud_cgrn_approval_model
+msgid "CGRN REQUEST APPROVEL"
+msgstr "CGRN REQUEST APPROVEL"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model,name:ioud_qr_barcode_scanner.model_ioud_cgrn_req_data_ioud_cgrn_req_data
+msgid "CGRN REQUEST DATA"
+msgstr "CGRN REQUEST DATA"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.actions.act_window,name:ioud_qr_barcode_scanner.action_window_ioud_cgrn_req_app
+msgid "CGRN Request Approval"
+msgstr "CGRN Request Approval"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.ui.menu,name:ioud_qr_barcode_scanner.ioud_cgrn_req_app_menu_1
+msgid "CGRN Request Approvals"
+msgstr "CGRN Request Approvals"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_cgrn_stock_approval_id
+msgid "Cgrn Approval ID"
+msgstr "Cgrn Approval ID"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_cgrn_req__app_view_form
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_cgrn_req_app_view_tree
+msgid "Cgrn Request Approval"
+msgstr "Cgrn Request Approval"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_cgrn_stock_request_id
+msgid "Cgrn Request ID"
+msgstr "Cgrn Request ID"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_config_cities_id
+msgid "Cities"
+msgstr "Cities"
+
+#. module: ioud_sale_order
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_region_config_view_form
+msgid "Cities Configuration"
+msgstr "Cities Configuration"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_city
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_form
+msgid "City"
+msgstr "المدينة"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_cities_name
+msgid "City Name"
+msgstr "City اسم"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_classification
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_classification
+msgid "Classification"
+msgstr "Classification"
+
+#. module: ioud_sale_order
+#: selection:res.partner,ext_type_of_cust:0
+msgid "Corporate Trade"
+msgstr "Corporate Trade"
+
+#. module: ioud_sale_order
+#: model:res.groups,name:ioud_sale_order.group_cooperate_user
+msgid "Corporate Trade User"
+msgstr "Corporate Trade User"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_country_id
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_form
+msgid "Country"
+msgstr "دولة"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_create_cgrn
+msgid "Create CGRN"
+msgstr "Create CGRN"
+
+#. module: ioud_sale_order
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_sale_order_inherit_sale_order_form_view
+#: model:res.groups,name:ioud_sale_order.group_for_sale_create_invoice
+msgid "Create Invoice"
+msgstr "إنشاء فاتورة"
+
+#. modules: ioud_email_alerts, ioud_sale_order, ioud_qr_barcode_scanner, ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_alerts_ioud_email_alerts_create_uid
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_users_create_uid
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model_create_uid
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_create_uid
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_create_uid
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory_create_uid
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_create_uid
+#: model:ir.model.fields,field_description:ioud_sale_order.field_price_per_product_create_uid
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_cities_create_uid
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_config_create_uid
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model_create_uid
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_create_uid
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. modules: ioud_email_alerts, ioud_sale_order, ioud_qr_barcode_scanner, ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_alerts_ioud_email_alerts_create_date
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_users_create_date
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model_create_date
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_create_date
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_create_date
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory_create_date
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_create_date
+#: model:ir.model.fields,field_description:ioud_sale_order.field_price_per_product_create_date
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_cities_create_date
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_config_create_date
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model_create_date
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_create_date
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_user_id
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_user_id
+msgid "Current User"
+msgstr "Current User"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_partner_id
+msgid "Customer Name"
+msgstr "Customer اسم"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_type_of_cust
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_type_of_cust
+msgid "Customer Type"
+msgstr "Customer Type"
+
+#. module: ioud_sale_order
+#: model:ir.ui.menu,name:ioud_sale_order.ioud_branches_menu_2
+msgid "Customers"
+msgstr "عملاء"
+
+#. module: ioud_qr_barcode_scanner
+#: selection:ioud_cgrn_req_data.ioud_cgrn_req_data,reason:0
+msgid "Damaged"
+msgstr "تالف"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model_date
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_date
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_date
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model_date
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_date
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_date
+msgid "Date"
+msgstr "التاريخ"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_cgrn_req__app_view_form
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req__app_view_form
+msgid "Decline"
+msgstr "رفض"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: selection:ioud_cgrn_approval_model.ioud_cgrn_approval_model,state:0
+#: selection:ioud_cgrn_req_data.ioud_cgrn_req_data,state:0
+#: selection:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner,state:0
+#: selection:ioud_stock_approval_model.ioud_stock_approval_model,state:0
+#: selection:ioud_stock_req_data.ioud_stock_req_data,state:0
+#: selection:ioud_stock_req_model.ioud_stock_req_model,state:0
+msgid "Declined"
+msgstr "تم الرفض"
+
+#. module: ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_description
+msgid "Description"
+msgstr "الوصف"
+
+#. modules: ioud_email_alerts, ioud_sale_order, ioud_qr_barcode_scanner, ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_alerts_ioud_email_alerts_display_name
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_users_display_name
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model_display_name
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_display_name
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_display_name
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory_display_name
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_display_name
+#: model:ir.model.fields,field_description:ioud_sale_order.field_price_per_product_display_name
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_cities_display_name
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_config_display_name
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model_display_name
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_display_name
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: selection:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner,state:0
+#: selection:ioud_stock_req_model.ioud_stock_req_model,state:0
+msgid "Done"
+msgstr "Done"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_email
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#. module: ioud_email_alerts
+#: model:ir.actions.act_window,name:ioud_email_alerts.action_window_ioud_email_alerts
+#: model:ir.ui.view,arch_db:ioud_email_alerts.ioud_email_alerts_view_form
+#: model:ir.ui.view,arch_db:ioud_email_alerts.ioud_email_alerts_view_tree
+msgid "Email Alerts"
+msgstr "Email Alerts"
+
+#. module: ioud_email_alerts
+#: model:ir.ui.menu,name:ioud_email_alerts.ioud_email_alerts_menu_1
+msgid "Email Alerts Configuration"
+msgstr "Email Alerts Configuration"
+
+#. module: ioud_email_alerts
+#: model:res.groups,name:ioud_email_alerts.group_email_alerts_admin
+msgid "Email Alerts Configuration Access"
+msgstr "Email Alerts Configuration Access"
+
+#. module: ioud_email_alerts
+#: model:ir.module.category,name:ioud_email_alerts.module_management
+msgid "Email Configuration"
+msgstr "Email Configuration"
+
+#. module: ioud_email_alerts
+#: model:ir.module.category,description:ioud_email_alerts.module_management
+msgid "Email Configuration Access"
+msgstr "Email Configuration Access"
+
+#. module: ioud_email_alerts
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_alerts_ioud_email_alerts_mail_user
+msgid "Email User"
+msgstr "Email User"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_fax
+msgid "Fax"
+msgstr "فاكس"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: selection:ioud_cgrn_approval_model.ioud_cgrn_approval_model,state:0
+#: selection:ioud_stock_approval_model.ioud_stock_approval_model,state:0
+msgid "Final Approval"
+msgstr "موافقة نهائية"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_finance_contact_no
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_finance_contact_no
+msgid "Finance Contact"
+msgstr "Finance Contact"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_finance_contact_email
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_finance_contact_email
+msgid "Finance Email"
+msgstr "Finance Email"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_finance_contact
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_finance_contact
+msgid "Finance Person"
+msgstr "Finance Person"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_inherit_branches_view_form
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_inherit_res_partner_view_form
+msgid "Genrate Barcode"
+msgstr "Genrate Barcode"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_head_office
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_form
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_sale_order_form_view_access
+msgid "Head Office"
+msgstr "الادارة الرئيسية"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_iban_no
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_iban_no
+msgid "IBAN No"
+msgstr "IBAN No"
+
+#. modules: ioud_email_alerts, ioud_sale_order, ioud_qr_barcode_scanner, ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_alerts_ioud_email_alerts_id
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_users_id
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model_id
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_id
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_id
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory_id
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_id
+#: model:ir.model.fields,field_description:ioud_sale_order.field_price_per_product_id
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_cities_id
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_config_id
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model_id
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_id
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_image
+msgid "Image"
+msgstr "الصورة"
+
+#. module: ioud_qr_barcode_scanner
+#: selection:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner,state:0
+msgid "Initial"
+msgstr "Initial"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_view_form
+msgid "Initiate Scan"
+msgstr "بدء المسح الضوئي"
+
+#. module: ioud_sale_order
+#: model:ir.model,name:ioud_sale_order.model_account_invoice
+msgid "Invoice"
+msgstr "الفاتورة"
+
+#. module: ioud_email_alerts
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_users_ioud_user_id
+msgid "Ioud Email alerts ID"
+msgstr "Ioud Email alerts ID"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_kind
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_kind
+msgid "Kind"
+msgstr "النوع"
+
+#. modules: ioud_email_alerts, ioud_sale_order, ioud_qr_barcode_scanner, ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_alerts_ioud_email_alerts___last_update
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_users___last_update
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model___last_update
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data___last_update
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner___last_update
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory___last_update
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches___last_update
+#: model:ir.model.fields,field_description:ioud_sale_order.field_price_per_product___last_update
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_cities___last_update
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_config___last_update
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model___last_update
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data___last_update
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model___last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. modules: ioud_email_alerts, ioud_sale_order, ioud_qr_barcode_scanner, ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_alerts_ioud_email_alerts_write_uid
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_users_write_uid
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model_write_uid
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_write_uid
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_write_uid
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory_write_uid
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_write_uid
+#: model:ir.model.fields,field_description:ioud_sale_order.field_price_per_product_write_uid
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_cities_write_uid
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_config_write_uid
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model_write_uid
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_write_uid
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. modules: ioud_email_alerts, ioud_sale_order, ioud_qr_barcode_scanner, ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_alerts_ioud_email_alerts_write_date
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_users_write_date
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model_write_date
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_write_date
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_write_date
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory_write_date
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_write_date
+#: model:ir.model.fields,field_description:ioud_sale_order.field_price_per_product_write_date
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_cities_write_date
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_config_write_date
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model_write_date
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_write_date
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. modules: ioud_sale_order, ioud_qr_barcode_scanner, ioud_stock_order
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_cgrn_req__app_view_form
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_location
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_location
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req__app_view_form
+msgid "Location"
+msgstr "المكان"
+
+#. module: ioud_email_alerts
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_alerts_ioud_email_alerts_to_mails
+msgid "Mail To"
+msgstr "Mail To"
+
+#. module: ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_mailing_group
+msgid "Mailing Groups"
+msgstr "Mailing Groups"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_mobile
+msgid "Mobile"
+msgstr "الجوال"
+
+#. module: ioud_sale_order
+#: selection:res.partner,ext_type_of_cust:0
+msgid "Modern Trade"
+msgstr "Modern Trade"
+
+#. module: ioud_sale_order
+#: model:res.groups,name:ioud_sale_order.group_moderate_user
+msgid "Modern Trade User"
+msgstr "Modern Trade User"
+
+#. modules: ioud_email_alerts, ioud_sale_order, ioud_qr_barcode_scanner, ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_alerts_ioud_email_alerts_name
+#: model:ir.ui.view,arch_db:ioud_email_alerts.ioud_email_alerts_view_tree
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model_name
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_name
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_cgrn_req_app_view_tree
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_view_tree
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_name
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_record_name
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_form
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_tree
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_region_config_view_form
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_region_config_view_tree
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model_name
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_name
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req_app_view_tree
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req_view_tree
+msgid "Name"
+msgstr "الاسم"
+
+#. module: ioud_stock_order
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req_view_form
+msgid "Notes..."
+msgstr "ملاحظات..."
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_cgrn_req__app_view_form
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req__app_view_form
+msgid "On Hand"
+msgstr "الكمية متوفرة فعليا"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: selection:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner,state:0
+#: selection:ioud_stock_req_model.ioud_stock_req_model,state:0
+msgid "Partial Done"
+msgstr "تم جزئيا"
+
+#. modules: ioud_sale_order, ioud_qr_barcode_scanner
+#: model:ir.model,name:ioud_qr_barcode_scanner.model_res_partner
+#: model:ir.model,name:ioud_sale_order.model_res_partner
+msgid "Partner"
+msgstr "شريك"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory_ioud_branch_id
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory_res_partner_id
+msgid "Partner ID"
+msgstr "Partner ID"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_payment_terms
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_payment_terms
+msgid "Payment Terms"
+msgstr "شروط السداد"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: selection:ioud_cgrn_req_data.ioud_cgrn_req_data,state:0
+#: selection:ioud_stock_req_data.ioud_stock_req_data,state:0
+msgid "Pending"
+msgstr "Pending"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_phone
+msgid "Phone"
+msgstr "هاتف"
+
+#. module: ioud_qr_barcode_scanner
+#: code:addons/ioud_qr_barcode_scanner/models/barcode_qr_scanner.py:108
+#, python-format
+msgid "Please select one of the options between sold and create cgrn check box befor proceed."
+msgstr "Please اختيار السبب one of the options between تم البيع and create cgrn check box befor proceed."
+
+#. module: ioud_qr_barcode_scanner
+#: code:addons/ioud_qr_barcode_scanner/models/barcode_qr_scanner.py:104
+#, python-format
+msgid "Please select sold or create cgrn check box befor proceed."
+msgstr "Please اختيار السبب تم البيع or create cgrn check box befor proceed."
+
+#. module: ioud_qr_barcode_scanner
+#: code:addons/ioud_qr_barcode_scanner/models/barcode_qr_scanner.py:116
+#, python-format
+msgid "Please update Qty Available field as it is 0 or less then 0."
+msgstr "Please update Qty Available field as it is 0 or less then 0."
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_price_per_product
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_price_per_product
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_sale_order_inherit_res_partner_view_form
+#: model:res.groups,name:ioud_sale_order.group_for_price_per_product
+msgid "Price Per Product"
+msgstr "سعر المنتج"
+
+#. modules: ioud_sale_order, ioud_qr_barcode_scanner, ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_product_id
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_product_id
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory_product_id
+#: model:ir.model.fields,field_description:ioud_sale_order.field_price_per_product_product_id
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_product_id
+msgid "Product"
+msgstr "منتج"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_price_per_product_product_price_id
+msgid "Product Price ID"
+msgstr "Product Price ID"
+
+#. module: ioud_purchase_order
+#: model:res.groups,name:ioud_purchase_order.group_purchase_confirm_officer
+msgid "Purchase Confirm"
+msgstr "Purchase Confirm"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_purchase_contact_no
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_purchase_contact_no
+msgid "Purchase Contact"
+msgstr "Purchase Contact"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_purchase_contact_email
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_purchase_contact_email
+msgid "Purchase Email"
+msgstr "Purchase Email"
+
+#. module: ioud_purchase_order
+#: model:ir.model,name:ioud_purchase_order.model_purchase_order
+msgid "Purchase Order"
+msgstr "أمر الشراء"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_purchase_contact
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_purchase_contact
+msgid "Purchase Person"
+msgstr "Purchase Person"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory_qr_code
+msgid "QR Code"
+msgstr "رمز الصورة"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_rack_qr_inventory_qty_assigned
+msgid "QTY Assigned"
+msgstr "QTY Assigned"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.actions.act_window,name:ioud_qr_barcode_scanner.action_window_ioud_qr_barcode_scanner
+msgid "Qr Code Scanner"
+msgstr "Qr Code Scanner"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_qty_assigned
+msgid "Qty Assigned"
+msgstr "Qty Assigned"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_qty_available
+msgid "Qty Available"
+msgstr "Qty Available"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_qty
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_qty
+msgid "Qty Requested"
+msgstr "Qty Requested"
+
+#. module: ioud_qr_barcode_scanner
+#: selection:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner,state:0
+msgid "Qty Update"
+msgstr "تحديث الكمية"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_qty_available
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_qty_available
+msgid "Qty available"
+msgstr "Qty available"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_branches_ioud_branches_rack_qr_inventory_ids
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_res_partner_rack_qr_inventory_ids
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_res_users_rack_qr_inventory_ids
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_inherit_branches_view_form
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_inherit_res_partner_view_form
+msgid "Rack Inventory"
+msgstr "Rack Inventory"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_inherit_branches_view_form
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_inherit_res_partner_view_form
+msgid "Racks Inventory"
+msgstr "Racks Inventory"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_reason
+msgid "Reason"
+msgstr "السبب"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_cgrn_req__app_view_form
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req__app_view_form
+msgid "Refuse"
+msgstr "رفض"
+
+#. module: ioud_sale_order
+#: model:ir.actions.act_window,name:ioud_sale_order.action_window_ioud_region
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_region
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_region_config_view_form
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_region_config_view_tree
+msgid "Region"
+msgstr "Region"
+
+#. module: ioud_sale_order
+#: model:ir.ui.menu,name:ioud_sale_order.region_menu_1
+#: model:res.groups,name:ioud_sale_order.group_for_region_configuration
+msgid "Region Configuration"
+msgstr "Region Configuration"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_cities_region_id
+msgid "Region ID"
+msgstr "Region ID"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_region_config_name
+msgid "Region Name"
+msgstr "Region اسم"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: selection:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner,state:0
+#: selection:ioud_stock_req_model.ioud_stock_req_model,state:0
+msgid "Reported"
+msgstr "Reported"
+
+#. module: ioud_stock_order
+#: model:ir.model,name:ioud_stock_order.model_ioud_stock_req_model_ioud_stock_req_model
+msgid "STOCK REQUEST"
+msgstr "STOCK REQUEST"
+
+#. module: ioud_stock_order
+#: model:ir.model,name:ioud_stock_order.model_ioud_stock_approval_model_ioud_stock_approval_model
+msgid "STOCK REQUEST APPROVEL"
+msgstr "STOCK REQUEST APPROVEL"
+
+#. module: ioud_stock_order
+#: model:ir.model,name:ioud_stock_order.model_ioud_stock_req_data_ioud_stock_req_data
+msgid "STOCK REQUEST DATA"
+msgstr "STOCK REQUEST DATA"
+
+#. module: ioud_sale_order
+#: model:ir.model,name:ioud_sale_order.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: ioud_sale_order
+#: model:ir.model,name:ioud_sale_order.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "سطر أمر البيع"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model_user_id
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model_user_id
+msgid "Sales person"
+msgstr "Sales person"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_user_id
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_salesperson_user_ids
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_salesperson_user_ids
+msgid "Salesperson"
+msgstr "مسئول المبيعات"
+
+#. module: ioud_qr_barcode_scanner
+#: selection:ioud_cgrn_req_data.ioud_cgrn_req_data,reason:0
+msgid "Sample / Gift"
+msgstr "Sample / Gift"
+
+#. module: ioud_qr_barcode_scanner
+#: selection:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner,state:0
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_view_form
+msgid "Scan Code"
+msgstr "تم تصوير الرمز"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_view_form
+msgid "Scanner Form"
+msgstr "Scanner Form"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_view_tree
+msgid "Scanner Tree"
+msgstr "Scanner Tree"
+
+#. module: ioud_qr_barcode_scanner
+#: selection:ioud_cgrn_req_data.ioud_cgrn_req_data,reason:0
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_sold
+msgid "Sold"
+msgstr "تم البيع"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_stands
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_stands
+msgid "Stands"
+msgstr "Stands"
+
+#. modules: ioud_sale_order, ioud_qr_barcode_scanner, ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model_state
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_state
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_state_id
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model_state
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_state
+msgid "State"
+msgstr "المحافظة"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_state_zip
+msgid "State zip"
+msgstr "State zip"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_req_data_ioud_cgrn_req_data_state
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_state
+msgid "Status"
+msgstr "الحاله "
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_cgrn_req__app_view_form
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req__app_view_form
+msgid "Stock Approval"
+msgstr "Stock Approval"
+
+#. module: ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_stock_approval_id
+msgid "Stock Approval ID"
+msgstr "Stock Approval ID"
+
+#. module: ioud_stock_order
+#: model:ir.actions.act_window,name:ioud_stock_order.action_window_ioud_stock_req
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req_view_form
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req_view_tree
+msgid "Stock Request"
+msgstr "Stock Request"
+
+#. module: ioud_stock_order
+#: model:ir.actions.act_window,name:ioud_stock_order.action_window_ioud_stock_req_app
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req__app_view_form
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req_app_view_tree
+msgid "Stock Request Approval"
+msgstr "موافقة طلب مخزون"
+
+#. module: ioud_stock_order
+#: model:ir.ui.menu,name:ioud_stock_order.ioud_stock_req_app_menu_1
+msgid "Stock Request Approvals"
+msgstr "موافقة طلب مخزون"
+
+#. module: ioud_stock_order
+#: model:ir.ui.menu,name:ioud_stock_order.ioud_stock_req_menu_1
+msgid "Stock Request Form"
+msgstr "طلب مخزون"
+
+#. module: ioud_stock_order
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_data_ioud_stock_req_data_stock_request_id
+msgid "Stock Request ID"
+msgstr "Stock Request ID"
+
+#. module: ioud_stock_order
+#: model:res.groups,name:ioud_stock_order.group_stock_manager
+msgid "Stock Request Manager"
+msgstr "Stock Request Manager"
+
+#. module: ioud_stock_order
+#: model:res.groups,name:ioud_stock_order.group_stock_sr_manager
+msgid "Stock Request Sr Manager"
+msgstr "Stock Request Sr Manager"
+
+#. module: ioud_stock_order
+#: model:res.groups,name:ioud_stock_order.group_stock_user
+msgid "Stock Request User"
+msgstr "Stock Request User"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_cgrn_approval_model_ioud_cgrn_approval_model_stock_req_data_ids
+#: model:ir.model.fields,field_description:ioud_qr_barcode_scanner.field_ioud_qr_barcode_scanner_ioud_qr_barcode_scanner_stock_req_data_ids
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_approval_model_ioud_stock_approval_model_stock_req_data_ids
+#: model:ir.model.fields,field_description:ioud_stock_order.field_ioud_stock_req_model_ioud_stock_req_model_stock_req_data_ids
+msgid "Stock req data ids"
+msgstr "Stock req data ids"
+
+#. module: ioud_qr_barcode_scanner
+#: selection:ioud_cgrn_req_data.ioud_cgrn_req_data,reason:0
+msgid "Stolen"
+msgstr "مسروق"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_street
+msgid "Street"
+msgstr "الشارع"
+
+#. module: ioud_sale_order
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_form
+msgid "Street 2..."
+msgstr "الشارع 2"
+
+#. module: ioud_sale_order
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_form
+msgid "Street..."
+msgstr "الشارع..."
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_street2
+msgid "Street2"
+msgstr "الشارع ٢"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_view_form
+#: model:ir.ui.view,arch_db:ioud_stock_order.ioud_stock_req_view_form
+msgid "Submit to Manager"
+msgstr "ارسال للمدير"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_category_id
+msgid "Tags"
+msgstr "الوسوم"
+
+#. module: ioud_sale_order
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_form
+msgid "Tags..."
+msgstr "الوسوم..."
+
+#. module: ioud_sale_order
+#: code:addons/ioud_sale_order/models/sale_order.py:199
+#, python-format
+msgid "The product qty inhand is less then ordered qty or equal to 0 please update qty before proceed"
+msgstr "The product qty inhand is less then ordered qty or equal to 0 please update qty before proceed"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: code:addons/ioud_qr_barcode_scanner/models/barcode_qr_scanner.py:132
+#: code:addons/ioud_stock_order/models/stock_request.py:67
+#, python-format
+msgid "There is no product in the list please add one before proceed"
+msgstr "There is no product in the list please add one before proceed"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: selection:ioud_cgrn_approval_model.ioud_cgrn_approval_model,state:0
+#: selection:ioud_stock_approval_model.ioud_stock_approval_model,state:0
+msgid "To Approve"
+msgstr "طلب موافق"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: selection:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner,state:0
+#: selection:ioud_stock_req_model.ioud_stock_req_model,state:0
+msgid "To Submit"
+msgstr "To Submit"
+
+#. module: ioud_sale_order
+#: selection:res.partner,ext_type_of_cust:0
+msgid "Traditional Trade"
+msgstr "Traditional Trade"
+
+#. module: ioud_sale_order
+#: model:res.groups,name:ioud_sale_order.group_normal_user
+msgid "Traditional Trade User"
+msgstr "Traditional Trade User"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_type_of_material
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_type_of_material
+msgid "Type of Material Supplier"
+msgstr "Type of Material Supplier"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.ui.view,arch_db:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_view_form
+msgid "Update Qty"
+msgstr "تحديث الكمية"
+
+#. modules: ioud_sale_order, ioud_stock_order
+#: model:ir.module.category,description:ioud_sale_order.module_management
+#: model:ir.module.category,description:ioud_stock_order.ioud_stock_module_management
+msgid "User access level for this module"
+msgstr "User access level for this module"
+
+#. module: ioud_email_alerts
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_alerts_ioud_email_alerts_email_user_ids
+#: model:ir.model.fields,field_description:ioud_email_alerts.field_ioud_email_users_user_id
+msgid "Users"
+msgstr "المستخدمون"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_partner_ext_vendor_no
+#: model:ir.model.fields,field_description:ioud_sale_order.field_res_users_ext_vendor_no
+msgid "Vendor Number"
+msgstr "Vendor Number"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.ui.menu,name:ioud_qr_barcode_scanner.ioud_qr_barcode_scanner_menu_1
+msgid "Visit Update"
+msgstr "تحديث زيارة"
+
+#. modules: ioud_stock_order, ioud_qr_barcode_scanner
+#: selection:ioud_cgrn_req_data.ioud_cgrn_req_data,state:0
+#: selection:ioud_stock_req_data.ioud_stock_req_data,state:0
+msgid "Waiting for Final Approval"
+msgstr "Waiting for موافقة نهائية"
+
+#. module: ioud_stock_order
+#: model:ir.model,name:ioud_stock_order.model_stock_warehouse
+msgid "Warehouse"
+msgstr "المخزون"
+
+#. module: ioud_sale_order
+#: model:ir.model.fields,field_description:ioud_sale_order.field_ioud_branches_ioud_branches_website
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+#. module: ioud_stock_order
+#: code:addons/ioud_stock_order/models/stock_request.py:43
+#, python-format
+msgid "You can not delete a stock request when it is not in draft or cancel state"
+msgstr "You can not delete a stock request when it is not in draft or cancel state"
+
+#. module: ioud_sale_order
+#: code:addons/ioud_sale_order/models/sale_order.py:210
+#: code:addons/ioud_sale_order/models/sale_order.py:214
+#, python-format
+msgid "You can not modify the Unit Price."
+msgstr "You can not modify the Unit Price."
+
+#. module: ioud_sale_order
+#: code:addons/ioud_sale_order/models/sale_order.py:203
+#, python-format
+msgid "You have multiple assosiated users under stock locations one 1 user is allowed."
+msgstr "You have multiple assosiated users under stock locations one 1 user is allowed."
+
+#. module: ioud_sale_order
+#: model:ir.ui.view,arch_db:ioud_sale_order.ioud_branches_view_form
+msgid "e.g. www.odoo.com"
+msgstr "مثلا www.odoo.com"
+
+#. module: ioud_sale_order
+#: model:ir.module.category,name:ioud_sale_order.module_management
+msgid "iOud Sales module access"
+msgstr "iOud Sales module access"
+
+#. module: ioud_stock_order
+#: model:ir.module.category,name:ioud_stock_order.ioud_stock_module_management
+msgid "iOud Stock management access"
+msgstr "iOud Stock management access"
+
+#. modules: ioud_sale_order, ioud_qr_barcode_scanner
+#: model:ir.model,name:ioud_qr_barcode_scanner.model_ioud_branches_ioud_branches
+#: model:ir.model,name:ioud_sale_order.model_ioud_branches_ioud_branches
+msgid "ioud_branches.ioud_branches"
+msgstr "ioud_branches.ioud_branches"
+
+#. module: ioud_email_alerts
+#: model:ir.model,name:ioud_email_alerts.model_ioud_email_alerts_ioud_email_alerts
+msgid "ioud_email_alerts.ioud_email_alerts"
+msgstr "ioud_email_alerts.ioud_email_alerts"
+
+#. module: ioud_email_alerts
+#: model:ir.model,name:ioud_email_alerts.model_ioud_email_users
+msgid "ioud_email_users"
+msgstr "ioud_email_users"
+
+#. module: ioud_sale_order
+#: model:ir.model,name:ioud_sale_order.model_price_per_product
+msgid "price.per.product"
+msgstr "price.per.product"
+
+#. module: ioud_qr_barcode_scanner
+#: model:ir.model,name:ioud_qr_barcode_scanner.model_rack_qr_inventory
+msgid "rack_qr_inventory"
+msgstr "rack_qr_inventory"
+
+#. module: ioud_sale_order
+#: model:ir.model,name:ioud_sale_order.model_region_cities
+msgid "region.cities"
+msgstr "region.cities"
+
+#. module: ioud_sale_order
+#: model:ir.model,name:ioud_sale_order.model_region_config
+msgid "region.config"
+msgstr "region.config"

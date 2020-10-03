@@ -1,0 +1,55 @@
+<odoo>
+
+  <!-- sale order form view extention -->
+    <record id="ioud_order_inherit_res_partner_view_form" model="ir.ui.view">
+        <field name="name">Res.Partner</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+               <xpath expr="//page[@name='sales_purchases']//field[@name='user_id']" position="attributes">
+                 <attribute name="groups">base.group_system</attribute>
+            </xpath>
+              <xpath expr="//page[@name='sales_purchases']//field[@name='property_delivery_carrier_id']" position="before">
+                <field name="salesperson_user_ids" string="Other Salespersons" widget="many2many_tags"/>
+              </xpath>
+            <xpath expr="//field[@name='website']" position="after">
+            	<field name="customer_rank" invisible="1"/>
+            	<field name="supplier_rank" invisible="1"/>
+                <field name="ext_arabic_name" groups="ioud_sale_order.group_moderate_user,ioud_sale_order.group_normal_user" attrs="{'required': [('customer_rank','=',1)]}"/>
+                <field name="is_new_vendor_no" invisible="1"/>
+                <field name="ext_vendor_no" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)],'readonly':[('is_new_vendor_no','=',True)]}" string="Internal Reference"/>
+                <field name="ext_finance_contact" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)],'required': [('customer_rank','=',1)]}"/>
+                <field name="ext_purchase_contact" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)],'required': [('customer_rank','=',1)]}"/>
+                <field name="ext_finance_contact_email" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)],'required': [('customer_rank','=',1)]}"/>
+                <field name="ext_kind" groups="ioud_sale_order.group_normal_user" attrs="{'invisible':[('customer_rank','!=',1)]}"/>
+                <field name="ext_type_of_material" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('supplier_rank','=',1)]}"/>
+                <field name="ext_payment_terms" groups="ioud_sale_order.group_moderate_user,ioud_sale_order.group_normal_user" attrs="{'invisible':[('supplier_rank','=',1)]}"/> 
+                <field name="ext_iban_no" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('supplier_rank','=',1)]}"/>
+                <field name="ext_bank" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('supplier_rank','=',1)]}"/>
+                <field name="ext_location" groups="ioud_sale_order.group_moderate_user,ioud_sale_order.group_normal_user" attrs="{'invisible':[('supplier_rank','=',1)]}"/>
+
+            </xpath>
+           <xpath expr="//field[@name='vat']" position="after">
+                <field name="ext_classification" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)]}"/>
+                <field name="ext_finance_contact_no" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)],'required': [('customer_rank','=',1)]}"/>
+                <field name="ext_purchase_contact_no" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)],'required': [('customer_rank','=',1)]}"/>
+                <field name="ext_purchase_contact_email" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)],'required': [('customer_rank','=',1)]}"/>
+                <field name="ext_type_of_cust"  attrs="{'invisible':[('customer_rank','!=',1)],'required': [('customer_rank','=',1)]}"/>
+                <field name="ext_stands" groups="ioud_sale_order.group_normal_user" attrs="{'invisible':[('customer_rank','!=',1)]}"/>
+                
+
+                <field name="stand_qty" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)]}"/>
+                <field name="stand_rent" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)]}"/>
+                <field name="rebate_percent" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)]}"/>
+                <field name="rebate_from" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)]}"/>
+                <field name="rebate_to" groups="ioud_sale_order.group_moderate_user" attrs="{'invisible':[('customer_rank','!=',1)]}"/>
+
+            </xpath>
+
+
+
+        </field>
+    </record>
+
+
+</odoo>

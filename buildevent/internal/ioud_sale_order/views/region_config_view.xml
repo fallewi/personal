@@ -1,0 +1,59 @@
+<odoo>
+  <data>
+
+
+  <!-- ioud region form view definition -->
+    <record model="ir.ui.view" id="ioud_region_config_view_form">
+      <field name="name">ioud_region_config_view_form</field>
+      <field name="model">region.config</field>
+      <field name="arch" type="xml">
+        <form string="Region">
+          <sheet>
+              <div class="oe_title">
+                  <h1>
+                      <field name="name" default_focus="1" placeholder="Name" />
+                  </h1>
+              </div>
+              <group string="Cities Configuration">
+
+              </group>
+              <field name="cities_id" nolabel="1">
+                <tree editable="bottom" >
+                  <field name="name"/>
+                </tree>
+              </field>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+  <!-- ioud region tree view definition -->
+    <record model="ir.ui.view" id="ioud_region_config_view_tree">
+      <field name="name">ioud_region_config_view_tree</field>
+      <field name="model">region.config</field>
+      <field name="arch" type="xml">
+        <tree string="Region">
+            <field name="name" string="Name"/>
+        </tree>
+      </field>
+    </record>
+
+  <!-- ioud region action -->
+    
+    <record model="ir.actions.act_window" id="action_window_ioud_region">
+      <field name="name">Region</field>
+      <field name="res_model">region.config</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    
+
+  <!-- ioud branches menu item -->
+    <menuitem name="Region Configuration" 
+      id="region_menu_1" 
+      parent="sale.menu_sale_config"
+      action="action_window_ioud_region" 
+      groups="ioud_sale_order.group_for_region_configuration"
+      />
+
+  </data>
+</odoo>

@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ioud_branches,ioud_branches.ioud_branches,model_ioud_branches_ioud_branches,,1,1,1,0
+access_ioud_branches_moderate_user,ioud_branches.ioud_branches,model_ioud_branches_ioud_branches,ioud_sale_order.group_moderate_user,1,1,1,1
+access_ioud_region_configuration,region.config,model_region_config,,1,1,1,1
+access_ioud_region_cities,region.cities,model_region_cities,,1,1,1,1
